@@ -3,8 +3,7 @@ This repository is to show the creation process of my website portfolio project 
 
 ## Hosted Website
 
-At the moment the portfolio is not hosted, however the links will be available here as soon as that is done.
-
+[Portfolio Link](https://aleksandark.vercel.app/)
 
 ## Project Idea
 
@@ -28,8 +27,8 @@ To check the eslint of the project and if it has any errors you can run the comm
 To create a build of the project run `npm run build`
 - If there are eslint errors the build will fail
 
-***The project has no eslit erros as of this moment.*** <br><br>
-***The project`s code is being commented as of this moment***
+***The project has no eslit erros.*** <br><br>
+***The project`s code is commented.***
 
 ## Website contents
 
@@ -93,7 +92,7 @@ Everything has been commited as of now.
 - [X] Comment code and structure the contents of the project folder properly
 - [X] Fix bugs and issues that may pop during production
 - [X] Adding a CHANGELOG.md
-- [ ] Host
+- [X] Host
 
 
 ## Project structure
