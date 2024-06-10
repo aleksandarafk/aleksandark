@@ -1,5 +1,5 @@
-import Marquee from "../Marquee/Marquee"
-import ModelRender from "../3DModel/ModelEnvironment"
+import Marquee from "./Marquee"
+import ModelRender from "./ModelEnvironment"
 import { useTranslation } from 'react-i18next';
 
 function About() {

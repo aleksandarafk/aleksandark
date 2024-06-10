@@ -1,4 +1,4 @@
-import Marquee from '../../Marquee/Marquee';
+import Marquee from './Marquee';
 import { useTranslation } from 'react-i18next';
 import ExpatImages from './ExpatImages';
 function AboutExpat() {

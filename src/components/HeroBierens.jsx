@@ -1,15 +1,15 @@
-import ScrollingElement from '../../Introduction/HeroMarquee';
+import ScrollingElement from './HeroMarquee';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 
-function HeroExpat({ description }) {
+function HeroBierens({ description }) {
   const {t} = useTranslation();
   return (
     <>
     <section id="home">
       <div className="content">
-        <ScrollingElement title='EXPAT'/>
+        <ScrollingElement title='BIERE'/>
         <div className="container main-desc">
         <div className="description">{description}</div>
         <a style={{cursor: "pointer"}} className="btn-bierens" href='https://www.behance.net/aleksandarkaramirev' target='_blank'>
@@ -23,4 +23,4 @@ function HeroExpat({ description }) {
   )
 }
 
-export default HeroExpat
+export default HeroBierens

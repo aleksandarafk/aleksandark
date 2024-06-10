@@ -1,19 +1,20 @@
-import ScrollingElement from '../../Introduction/HeroMarquee';
+import ScrollingElement from './HeroMarquee';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
 
 
-function HeroStudent({ description }) {
+function Hero404({ description }) {
   const {t} = useTranslation();
   return (
     <>
     <section id="home">
       <div className="content">
-        <ScrollingElement title='STUDE'/>
+        <ScrollingElement title=':^('/>
         <div className="container main-desc">
         <div className="description">{description}</div>
-        <a style={{cursor: "pointer"}} className="btn-bierens" href='https://github.com/aleksandarafk/studentcorner' target='_blank'>
-          <span>{t('projects.launch')}</span>
+        <a style={{cursor: "pointer"}} className="btn-bierens">
+        <Link to='/' style={{textDecoration:'none', color:'white'}}><span>Home</span></Link>
         </a>
         </div>
       </div>
@@ -23,4 +24,4 @@ function HeroStudent({ description }) {
   )
 }
 
-export default HeroStudent
+export default Hero404

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import BackgroundCanvas from '../BackgroundCanvas';
+import BackgroundCanvas from './BackgroundCanvas';
 import Hero404 from "./Hero404";
 
 function NotFound() {

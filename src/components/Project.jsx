@@ -1,5 +1,5 @@
-import Marquee from "../Marquee/Marquee"
-import Projects from "../ProjectGallery/ProjectGallery"
+import Marquee from "./Marquee"
+import Projects from "./ProjectGallery"
 import { useTranslation } from 'react-i18next';
 
 function Project() {

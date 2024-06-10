@@ -4,10 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import './i18n';
 import { Routes, Route, useLocation, BrowserRouter } from 'react-router-dom'
-import ExpatService from './components/Projects/ExpatService/ExpatService'
-import StudentCorner from './components/Projects/StudentCorner/StudentCorner'
-import Bierens from './components/Projects/BierensLab/Bierens'
-import NotFound from './components/404/NotFound.jsx';
+import ExpatService from './components/ExpatService'
+import StudentCorner from './components/StudentCorner'
+import Bierens from './components/Bierens'
+import NotFound from './components/NotFound.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 

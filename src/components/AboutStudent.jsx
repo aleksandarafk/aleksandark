@@ -1,4 +1,4 @@
-import Marquee from '../../Marquee/Marquee';
+import Marquee from './Marquee';
 import { useTranslation } from 'react-i18next';
 import SCImages from './SCImages';
 function AboutStudent() {

@@ -1,4 +1,4 @@
-import Marquee from "../Marquee/Marquee"
+import Marquee from "./Marquee"
 import { FaLinkedin, FaGithub, FaBehanceSquare } from "react-icons/fa";
 import { IoSend } from "react-icons/io5";
 import React, { useRef, useEffect } from 'react';
