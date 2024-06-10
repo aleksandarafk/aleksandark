@@ -75,13 +75,13 @@ const Navigation = () => {
   </div>
 {currentLocation === "/" ?
       <ul className="menu">
-          <li ref={projectRef} className="menuItem"> <Link to="/" state="projects" style={{textDecoration:'none', color:'white'}}>{t("Projects")}</Link> 
+          <li ref={projectRef} className="menuItem"> <Link to="#projects" state="projects" style={{textDecoration:'none', color:'white'}}>{t("Projects")}</Link> 
           <audio ref={projectAudioRef} src="/go.wav" />
           </li>
-          <li ref={aboutRef} className="menuItem" > <Link to="/" state="about" style={{textDecoration:'none', color:'white'}}>{t("About")}</Link>
+          <li ref={aboutRef} className="menuItem" > <Link to="#about" state="about" style={{textDecoration:'none', color:'white'}}>{t("About")}</Link>
           <audio ref={aboutAudioRef} src="/go.wav" />
           </li>
-          <li ref={contactRef} className="menuItem" > <Link to="/" state="contact" style={{textDecoration:'none', color:'white'}}>{t("Contact")} </Link> 
+          <li ref={contactRef} className="menuItem" > <Link to="#contact" state="contact" style={{textDecoration:'none', color:'white'}}>{t("Contact")} </Link> 
           <audio ref={contactAudioRef} src="/go.wav" />
           </li>
             </ul>
