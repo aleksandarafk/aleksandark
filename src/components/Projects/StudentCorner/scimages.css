@@ -1,0 +1,42 @@
+.swiper {
+    width: 540px;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .studentcorner1 {
+    background-image: url("/studentcornerprot_thumb03.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  
+  .studentcorner2 {
+    background-image: url("/studentcornerprot_thumb.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  
+  .studentcorner3 {
+    background-image: url("/studentcornerprot_thumb02.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  
+  .imagecanvas{
+  margin-top: 25%;
+  position: absolute;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  }

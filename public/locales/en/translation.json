@@ -1,0 +1,50 @@
+{
+    "title": "ALEX",
+    "Projects": "Projects",
+    "About": "About",
+    "AboutProject": "About",
+    "BierensCreatedWith": "The project was created with: Figma, React & PrimeReact",
+    "StudentCornerCreatedWith": "The project was created with: Figma, MongoDB, HTML/CSS & EJS",
+    "ExpatCreatedWith": "The project was created with: Figma",
+    "Contact": "Contact",
+    "InfoBox":"I am Aleksandar Karamirev, a Media Design student at Fontys UAS, a nerd, and a huge Logic fan.",
+    "about":{
+        "title": "ABOUT",
+        "p1": "Hello there! My name is Aleksandar Karamirev, or Alex for short and I am a third year student at Fontys UAS specializing in Media Design. I've been studying since 2021 and I my work revolves mostly around the creation of a website it's UX / UI elements, development and it's launch.",
+        "p2": "In terms of technical abilities, I am proficient in HTML, CSS, and JavaScript for web development. Apart from this I am currently learning React, Express.js, and Node.js, I've used MongoDB for back-end development. I utilize Figma for prototyping and am skilled in Adobe Creative Cloud applications such as Photoshop, Illustrator, InDesign, After Effects, Premiere Pro.",
+        "p3": "I've been working both with small clients and business clients such as LiveWall, Expat Service and currently, I am working with Bierens Lab.",
+        "p4": "At the moment I am interested in a part-time or a full-time job. Another thing that I am interested in is freelancing! If you need extra help but you do not wan't to employ me, I am available as a freelancer."
+    },
+    "contact": {
+        "p1": "Currently I am busy as I try to pass my semester, however, here are several ways you can slide in my DMs, but proceed with caution. I might be busy doing university assignments or playing arcade games, but I will respond to your message as soon as possible.",
+        "p2": "In the meantime you can look at the projects that are listed on my website to familiarize yourself with me or go on about your day. Thank you for your time and for reaching out, sayonara ツ",
+        "footer": "©CREATED BY ALEKSANDAR KARAMIREV,"
+    },
+    "connect":"Let's Connect",
+    "projects":{
+            "studentcorner": "Student Corner",
+            "studentcorner_parag1": "Student Corner is a website, which strives to help improve and ease the learning process of one, keep productivity to the maximum, and help keep track of important events, exam dates, and crucial deadlines.",
+            "studentcorner_parag2": "This website was created for the company LiveWall. I contributed to the design of the website, and I created, structured and implemented the backend for the Student Corner Project. More precisely I created the signing in and logging in processes.",
+            "studentcorner_parag3": "The project was created using Figma for the prototyping and layout distribution of elements. For version control and seperate branches, I used GitLab, later on migrating the project to GitHub and for the actual code the app went trough a couple of stages.",
+            "studentcorner_parag4": "The project was seperated in two parts: the front-end (static) and the backend. For the front-end development of the project, vanilia HTML/CSS & JS was utilized. For the backend development - saving the users, saving notes and dates in the agenda and / or notebook components was used MongoDB.",
+            "expatservice": "Expat Service",
+            "expatservice_parag1": "My client, Expat Service faced issues with the performance of their online portal service that they offer. My client also had a hard time distinguishing the service from competitors as well as making sure the offered services are usable on all devices (desktop, mobile). In general, the scope of the project and my task was to create a functional prototype as well as to rebuild the client's public image.",
+            "expatservice_parag2": "The prototype consists of the already created service features (Advisory Service, Income Tax and Gift Tax) as well as the newly implemented UX (User Experience) and UI (User Interface). The main focus is on Expat Service’s tax questionnaire, dashboard and additional services.",
+            "expatservice_parag3": "The main objective was to make an easily accessible, easy-to-use and compatible for all devices (desktop, mobile) prototype, that when implemented, will offer a seamless experience and easily accessible services which will be often purchased. The brand (which was implemented in the online portal service) consisted of customized visualizations such as color palette, brand guidelines, brand identity, brand strategy and typography.",
+            "bierens":"Bierens Group",
+            "bierens_parag1": "With Bierens, the main issues are the underwhelming rewards compared to the invested time and the unscalable and inconsistent efforts to keep the referral program relevant.",
+            "bierens_parag2": "The B2B referral program strives to help Bierens with their problem in a beneficial way for all parties involved. Having the possibility to network with people within the program, allowing the user to choose a reward and having the option to spin a wheel when he is unsure is what makes the experience effective and interactive.",
+            "bierens_parag3": "The project was created using Figma for the prototyping, wireframing and layout distribution of elements. GitLab was utilized for version control and seperate branches and the code structure of the project is divided in three parts: Referral, Landing, Admin.",
+            "bierens_parag4": "My work was revolved primarely around the Admin part, having to work on a table that loads data for different kinds of rewards. I achieved this by using a library named PrimeReact. Additionally, the admin should be able to export the contents of the table and delete or add completely new rewards.",
+            "launch": "LAUNCH",
+            "type_fed": "Front-end / UX & UI",
+            "project_expt": "Tax system redesign",
+            "project_bierens": "B2B referral system",
+            "project_stdcrn": "Digital Substitution"
+        },
+        "404": {
+            "notfound": "Page not found",
+            "notfound_desc":"Even I was not able to think ahead and make this page.",
+            "goback": "Go back"
+        }
+    }

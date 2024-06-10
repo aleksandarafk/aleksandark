@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  .container-marquee {
+    position: absolute;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #ff4444;
+    color: #fff;
+  }
+  .marquee {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 2rem;
+  }
+  .marquee-content {
+    display: flex;
+    gap: 2rem;
+  }
+  .marquee-content span {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
